@@ -1,0 +1,54 @@
+        .header {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content {
+            min-height: 450px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: transparent;
+            margin-top: 5px;
+        }
+
+        .category-capsule {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            margin-right: 5px;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+
+        .card {
+            margin-top: 2rem;
+            padding: 10px;
+        }
+
+        .btn-search-spinner {
+            display: none;
+        }
+
+      .read-more-btn {
+        cursor: pointer;
+        color: blue;
+        text-decoration: underline;
+      }
+
+      .read-more-btn:hover {
+        text-decoration: none;
+      }
+
+      .synopsis-content {
+        max-height: 100px;
+        overflow: hidden;
+      }
+
+      .expanded {
+        max-height: none;
+      }
